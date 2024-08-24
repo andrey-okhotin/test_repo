@@ -1,6 +1,7 @@
 import argparse
 
 def main()
+    print("here")
     with open("../app/output.txt", "w") as f:
         f.write("here")
     parser = argparse.ArgumentParser()
