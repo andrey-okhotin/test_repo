@@ -1,6 +1,6 @@
 import argparse
 
-def main()
+def main():
     print("here")
     with open("../app/output.txt", "w") as f:
         f.write("here")
