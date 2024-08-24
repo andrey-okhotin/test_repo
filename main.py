@@ -1,6 +1,8 @@
 import argparse
 
 def main()
+    with open("../app/output.txt", "w") as f:
+        f.write("here")
     parser = argparse.ArgumentParser()
     parser.add_argument('-gpu', '--gpu', default='', type=str)
     parser.add_argument('-port', '--port', default='8900', type=str)
